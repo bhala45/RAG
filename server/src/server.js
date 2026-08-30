@@ -12,7 +12,7 @@ const startServer = async () => {
     console.log(`🚀 CampusWise AI Backend Server running in [${env.NODE_ENV}] mode`);
     console.log(`📡 URL: http://localhost:${env.PORT}`);
     console.log(`🔍 Health: http://localhost:${env.PORT}/api/health`);
-    console.log(`🤖 Gemini AI Models: text-embedding-004 + gemini-1.5-flash`);
+    console.log(`🤖 Gemini AI Models: gemini-embedding-001 (768-dim) + gemini-3.5-flash`);
     console.log(`======================================================\n`);
   });
 

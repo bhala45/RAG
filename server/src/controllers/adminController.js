@@ -120,8 +120,8 @@ const getHealth = async (req, res) => {
       },
       aiEngine: {
         provider: 'Google Gemini',
-        embeddingModel: 'text-embedding-004 (768-dim)',
-        generativeModel: 'gemini-1.5-flash',
+        embeddingModel: 'gemini-embedding-001 (768-dim)',
+        generativeModel: 'gemini-3.5-flash',
         apiKeyConfigured: geminiConfigured,
       },
     },

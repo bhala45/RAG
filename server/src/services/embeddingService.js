@@ -33,11 +33,15 @@ const embedText = async (text, retries = 3) => {
     return generateMockEmbedding(text);
   }
 
-  const model = getEmbeddingModel('text-embedding-004');
+  const model = getEmbeddingModel('gemini-embedding-001');
 
   for (let attempt = 1; attempt <= retries; attempt++) {
     try {
-      const result = await model.embedContent(text);
+      const result = await model.embedContent({
+        content: { parts: [{ text }] },
+        outputDimensionality: 768,
+      });
+
       if (result && result.embedding && Array.isArray(result.embedding.values)) {
         return result.embedding.values;
       }

@@ -14,9 +14,9 @@ const getGoogleGenAI = () => {
 };
 
 /**
- * Returns the Gemini Generative Model for chat & completions (default: gemini-1.5-flash)
+ * Returns the Gemini Generative Model for chat & completions (default: gemini-3.5-flash)
  */
-const getGenerativeModel = (modelName = 'gemini-1.5-flash', generationConfig = {}) => {
+const getGenerativeModel = (modelName = 'gemini-3.5-flash', generationConfig = {}) => {
   const client = getGoogleGenAI();
   return client.getGenerativeModel({
     model: modelName,
@@ -31,9 +31,9 @@ const getGenerativeModel = (modelName = 'gemini-1.5-flash', generationConfig = {
 };
 
 /**
- * Returns the Gemini Embedding Model (default: text-embedding-004)
+ * Returns the Gemini Embedding Model (default: gemini-embedding-001)
  */
-const getEmbeddingModel = (modelName = 'text-embedding-004') => {
+const getEmbeddingModel = (modelName = 'gemini-embedding-001') => {
   const client = getGoogleGenAI();
   return client.getGenerativeModel({ model: modelName });
 };

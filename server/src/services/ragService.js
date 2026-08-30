@@ -63,20 +63,27 @@ const processRagQuery = async ({ query, departmentFilter = 'All', userId = null,
 
   const highestScore = fusedChunks.length > 0 ? (fusedChunks[0].similarityScore || fusedChunks[0].fusedScore || 0) : 0;
 
-  // 5. Low-confidence catching (< 0.6 similarity score)
-  if (highestScore < 0.6 || fusedChunks.length === 0) {
-    try {
-      await UnhandledQuery.create({
-        queryText: query,
-        userId: userId,
-        highestSimilarityScore: highestScore,
-        status: 'pending_review',
-      });
-      console.log(`[RAGService] Low confidence query logged (${highestScore.toFixed(3)}): "${query}"`);
-    } catch (logErr) {
-      console.warn('[RAGService] Failed to log unhandled query:', logErr.message);
-    }
+// 5. Conditional unhandled query logging (similarity guardrail)
+if (highestScore < 0.6) {
+  // Low confidence: store as pending and return guardrail response
+  try {
+    await UnhandledQuery.create({
+      queryText: query,
+      userId: userId,
+      highestSimilarityScore: highestScore,
+      status: 'pending',
+    });
+    console.log(`[RAGService] Unhandled query logged (${highestScore.toFixed(3)}): "${query}"`);
+  } catch (logErr) {
+    console.error('[RAGService] Failed to log unhandled query:', logErr);
   }
+  return {
+    text: 'I am sorry, but this information is not available in the college documents.',
+    sources: [],
+    confidenceScore: highestScore,
+  };
+}
+// Continue with normal processing for high confidence queries
 
   // 6. Build Context & Sources
   const { contextString, sources } = buildContextAndSources(fusedChunks);
@@ -91,8 +98,8 @@ Student Query: ${query}
 
 Provide a verified, clear response:`;
 
-  // 7. Invoke Gemini 1.5 Flash Model
-  const model = getGenerativeModel('gemini-1.5-flash');
+  // 7. Invoke Gemini Generative Model (gemini-3.5-flash)
+  const model = getGenerativeModel('gemini-3.5-flash');
 
   let fullResponseText = '';
 

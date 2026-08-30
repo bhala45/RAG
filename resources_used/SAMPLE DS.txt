@@ -1,0 +1,50 @@
+================================================================================
+CAMPUSWISE INSTITUTE OF TECHNOLOGY — ACADEMIC & ADMINISTRATIVE HANDBOOK 2026
+Document Identifier: CIT-POLICY-2026-V2
+Target Departments: General, CSE, ECE, Mechanical, Admissions, Hostel, Placements
+================================================================================
+
+--------------------------------------------------------------------------------
+CHAPTER 1: ACADEMIC REGULATIONS & EVALUATION FRAMEWORK
+--------------------------------------------------------------------------------
+1.1 Attendance Requirements & Eligibility Criteria
+- Standard Requirement: Undergraduate students must maintain a minimum cumulative attendance of 75% in all theory, laboratory, and tutorial sessions across each semester.
+- Medical Condonation: Attendance between 65% and 74% may be condoned solely on legitimate medical grounds or official institutional participation in national-level events. Students must submit an official medical certificate issued by a registered civil surgeon or a university-approved medical practitioner to the Department Head within three (3) working days of returning to campus.
+- Detention Policy: Any student falling below the absolute minimum threshold of 65% attendance in a specific course will be detained from taking the End-Semester Examination (ESE) for that course and must repeat the course during a subsequent academic year.
+- Attendance Calculation: Attendance is logged digitally per lecture period. Three instances of unexcused tardiness exceeding 10 minutes will count as one unexcused absence.
+
+1.2 Grading System, Credit Structure, & Academic Probation
+- Evaluation Breakdown: Continuous Internal Assessment (CIA) accounts for 40% of total course marks, while the End-Semester Examination (ESE) accounts for 60%.
+- Grade Point Scale: The institution operates on a 10-point scale: O (Outstanding: 90-100%), A+ (Excellent: 80-89%), A (Very Good: 70-79%), B+ (Good: 60-69%), B (Above Average: 55-59%), C (Average: 50-54%), P (Pass: 40-49%), and F (Fail: <40%).
+- Minimum Passing Threshold: A student must secure a minimum of 40% in ESE and 40% overall (CIA + ESE combined) to clear a course.
+- Academic Probation: A student whose Cumulative Grade Point Average (CGPA) drops below 5.5 at the end of any academic year will be placed on formal Academic Probation. Students on probation are restricted from taking more than 22 credits per semester and cannot participate in student council elections or campus recruitment activities.
+
+--------------------------------------------------------------------------------
+CHAPTER 2: RESIDENTIAL LIFE & HOSTEL CONDUCT
+--------------------------------------------------------------------------------
+2.1 Hostel Curfew & Entry Operations
+- General Curfew: All residential campus gates and individual hostel building entrances strictly close at 9:30 PM daily.
+- Late Entry Log: Residents arriving between 9:30 PM and 10:15 PM must register their entry in the Late Logbook with the Resident Warden. A maximum of two (2) late entries per month are permitted without disciplinary action. A third late entry will trigger an automated SMS notification to registered guardians and a penalty fee of ₹500.
+- Night Out Passes: Outstation or overnight leave requests must be submitted through the CampusWise Portal at least 24 hours prior to departure. Approval from both the Hostel Warden and an explicit SMS authentication from a registered parent/guardian is required before gate departure is authorized.
+
+2.2 Guest Regulations & Facility Limitations
+- Visitor Hours: External guests and non-hostel visitors are strictly restricted to the Main Campus Cafeteria and Visitor Lounge between 4:00 PM and 7:00 PM on weekdays, and 10:00 AM to 6:00 PM on weekends. Visitors are never permitted inside student room corridors under any circumstances.
+- High-Wattage Appliances: For fire safety compliance, electronic appliances rated above 500 Watts—including electric kettles, hot plates, room heaters, iron boxes, and immersion rods—are strictly prohibited inside student rooms. Misuse will result in immediate confiscation of the appliance and a fine of ₹1,500 for the first offense.
+- Maintenance & Inspection: The Warden Office reserves the right to perform unannounced room inventory and safety inspections between 9:00 AM and 6:00 PM.
+
+--------------------------------------------------------------------------------
+CHAPTER 3: TRAINING & PLACEMENT CELL POLICIES
+--------------------------------------------------------------------------------
+3.1 Placement Eligibility & One-Job-Per-Student Rule
+- Eligibility Threshold: Students must maintain a minimum CGPA of 6.0 with zero active backlogs at the end of the 6th semester to participate in the On-Campus Recruitment Drive.
+- Attendance at Drives: Once a student registers for a campus recruitment drive hosted by a partner company, attendance at all selection rounds (Online Test, Group Discussion, Technical Interview, and HR Interview) is mandatory. Unexcused absence will lead to debarment from the next three (3) scheduled campus drives.
+- Single Offer Policy: CampusWise operates under a strict "One-Job-Per-Student" policy. Once a student receives a formal job offer from a company through the Placement Cell, they are deemed "Placed" and automatically deregistered from all subsequent campus drives.
+- Exception for Dream Offers: A placed student is allowed to apply for a "Dream Company" drive only if the offer package (CTC) exceeds the student's existing offer by at least 40%.
+
+--------------------------------------------------------------------------------
+CHAPTER 4: DISCIPLINARY CODE & ANTI-RAGGING COMPLIANCE
+--------------------------------------------------------------------------------
+4.1 Anti-Ragging Mandatory Directives
+- Zero Tolerance: Ragging in any form—physical abuse, verbal harassment, psychological bullying, or coercive tasks—is strictly prohibited on campus, in hostels, and in transport vehicles.
+- Statutory Actions: Any individual found guilty of ragging will be immediately suspended from the institute, and an mandatory First Information Report (FIR) will be filed with local law enforcement pursuant to UGC regulations.
+- Reporting Channels: Incidents can be reported anonymously 24/7 through the CampusWise Mobile App or via the Helpline at anti-ragging@campus.edu.
